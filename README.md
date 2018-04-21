@@ -13,7 +13,7 @@ $ docker build -t test/mosquitto-client .
 ### 環境への入り方
 
 ```
-$ docker run -it test/mosquitto-client /bin/sh
+$ docker run --rm -it test/mosquitto-client /bin/sh
 / #
 ```
 
